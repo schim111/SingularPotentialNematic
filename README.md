@@ -10,7 +10,7 @@ To run the code, the finite element, C++/Matlab, package FELICITY must be availa
 Also optional is the AGMG solver for linear matrix equations
 (http://agmg.eu/)
 
-To use the code, first edit the comile.m file in the directory that is being used to include the 
+To use the code, first edit the compile.m file in the directory that is being used to include the 
 path to FELCITY. Then run compile.m to create .mex files that will be used to assemble matrices.
 If different equations are used, the matrix assembly files may be edited in the MatAssemblies
 directories.
