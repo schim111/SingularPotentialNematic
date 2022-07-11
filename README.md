@@ -4,13 +4,13 @@ Matlab code to run the Ball-Majumdar singular potential with anisotropic elastic
 Included is code to run in two dimensions with/without a volume constraint and in three dimensions.
 Also included are a few common initial conditions for configurations with defects or tactoids.
 
-To run the code, the finite element, C++/Matlab, package FELICITY must be available 
-(https://www.mathworks.com/matlabcentral/fileexchange/31141-felicity)
+To run the code, the finite element, C++/Matlab, package FELICITY must be installed
+(https://www.mathworks.com/matlabcentral/fileexchange/31141-felicity) as well as the Matlab symbolic math toolbox.
 
-Included with the code is the file getLebedevSphere.m to get the quadrature points on a unit sphere.
-(
+Included with the code is the Matlab function getLebedevSphere.m to get the quadrature points on a unit sphere
+(Rob Parrish, The Sherrill Group, CCMST Georgia Tech, 03/24/2010).
 
-Also optional is the AGMG solver for linear matrix equations
+Also optional is the AGMG solver for linear matrix equations (not included)
 (http://agmg.eu/)
 
 To use the code, first edit the compile.m file in the directory that is being used to include the 
