@@ -7,6 +7,9 @@ Also included are a few common initial conditions for configurations with defect
 To run the code, the finite element, C++/Matlab, package FELICITY must be available 
 (https://www.mathworks.com/matlabcentral/fileexchange/31141-felicity)
 
+Included with the code is the file getLebedevSphere.m to get the quadrature points on a unit sphere.
+(
+
 Also optional is the AGMG solver for linear matrix equations
 (http://agmg.eu/)
 
